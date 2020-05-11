@@ -76,7 +76,8 @@ namespace TailSpin.SpaceGame.Web.Controllers
             }
             catch (Exception)
             {
-                return View(vm);
+                //return View(vm);
+                throw;
             }
         }
 
